@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     margin: 0; /* Quita márgenes por defecto del navegador */
     font-family: Arial, sans-serif; /* Fuente opcional */
-    color: #000000; /* Cambia el color del texto para que sea legible */
+    color: #ff0000; /* Cambia el color del texto para que sea legible */
     align-items: center;
     text-align: center;
 }
