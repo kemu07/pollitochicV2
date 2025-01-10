@@ -6,13 +6,13 @@ h1 {
 
 body {
     
-    background-image: url('images/horno.jpg'); /* Ruta a tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-image: url('images/pollito2.jpg'); /* Ruta a tu imagen */
+    background-size:  cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     margin: 0; /* Quita márgenes por defecto del navegador */
     font-family: Arial, sans-serif; /* Fuente opcional */
-    color: #ff0000; /* Cambia el color del texto para que sea legible */
+    color: #ff0062cf; /* Cambia el color del texto para que sea legible */
     align-items: center;
     text-align: center;
 }
@@ -48,16 +48,39 @@ header {
     color: #666;
 }
 
-/* Menu Sections */
 .menu-section {
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Menu Sections */
+ .menu-section4 {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente*/ 
+    background-image: url(images/design0.jpg);
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor*/
+    background-position: center; /* Centra la imagen*/ 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Asegura que el texto sea oscuro y legible */
+    .description {
+        color: white;
+    }
+    .menu-item .price {
+        color: white;
+        font-weight: bold;
+    }
+} 
+
+
 
 .menu-section h2 {
     font-size: 1.6rem;
