@@ -1,0 +1,32 @@
+
+h1 {
+    padding: auto;
+
+}
+
+body {
+    
+    background-image: url('images/horno.jpg'); /* Ruta a tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Quita márgenes por defecto del navegador */
+    font-family: Arial, sans-serif; /* Fuente opcional */
+    color: #000000; /* Cambia el color del texto para que sea legible */
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    
+    text-align: center;
+    gap: 10px; /* Espacio entre el logo y el título */
+    padding: 10px; /* Opcional: para agregar algo de espacio dentro del encabezado */
+}
+
+.logo1 {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
+
