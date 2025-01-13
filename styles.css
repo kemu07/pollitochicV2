@@ -6,7 +6,7 @@ h1 {
 
 body {
     
-    background-image: url('images/design3.jpg'); /* Ruta a tu imagen */
+    background-image: url('images/design4.jpg'); /* Ruta a tu imagen */
     background-size:  100%; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: repeat; /* Evita que la imagen se repita */
@@ -56,7 +56,7 @@ header {
 
 #introduction h2 {
     font-size: 1.8rem;
-    color: #fd0000;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -94,12 +94,12 @@ header {
     align-items: center;
     font-size: 1.2rem;
     margin: 10px 0;
-    color: #fd0000;
+    color: #ffffff;
 }
 
 .menu-item .price {
     font-size: 1.1rem;
-    color: #fd0202;
+    color: #ffffff;
     font-style: italic;
 }
 
@@ -111,6 +111,7 @@ header {
     padding-left: 10px;
     border-left: 2px solid #e0e0e0;
     border-right: 2px solid #e0e0e0;
+    font-weight: 100;
 }
 
 /* Footer Section */
