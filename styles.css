@@ -4,6 +4,7 @@ h1 {
 
 }
 
+
 body {
     
     background-image: url('images/design4.jpg'); /* Ruta a tu imagen */
@@ -103,6 +104,8 @@ header {
     font-style: italic;
 }
 
+
+
 /* Descriptions */
 .description {
     font-size: 1rem;
@@ -113,6 +116,8 @@ header {
     border-right: 2px solid #e0e0e0;
     font-weight: 100;
 }
+
+
 
 /* Footer Section */
 footer {
