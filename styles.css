@@ -104,7 +104,23 @@ header {
     font-style: italic;
 }
 
+.menu-item-w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    margin-bottom: 12px;
+    color: #ffffff;
 
+}
+
+.menu-item-w .price-w {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 12px;
+}
 
 /* Descriptions */
 .description {
