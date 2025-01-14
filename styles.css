@@ -1,0 +1,192 @@
+
+h1 {
+    padding: auto;
+
+}
+
+
+body {
+    
+    background-image: url('images/design4.jpg'); /* Ruta a tu imagen */
+    background-size:  100%; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* mantiene el fondo fijo*/
+    margin: 0; /* Quita márgenes por defecto del navegador */
+    font-family: Arial, sans-serif; /* Fuente opcional */
+    color: #000000cf; /* Cambia el color del texto para que sea legible */
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    
+    text-align: center;
+    gap: 10px; /* Espacio entre el logo y el título */
+    padding: 10px; /* Opcional: para agregar algo de espacio dentro del encabezado */
+    font-weight: 100;
+    text-shadow: none;
+    color: #000000;
+
+    
+    margin: 20px auto;
+    max-width: 100px;
+    padding: 10px;
+    background-color: rgb(71, 71, 71);
+    border: 0px solid #464646;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 75px;
+}
+
+
+.logo1 {
+    width: 70px; /* Ajusta el tamaño del logo */
+    height: 70px; /* Mantén la proporción de la imagen */
+}
+
+.logo2 {
+    width: 70px;
+    height: 70px;
+    
+
+}
+
+
+/* Introduction Section */
+#introduction {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid #464646;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+#introduction h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+}
+
+.menu-section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid #464646;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.days {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+
+}
+
+/* Menu Sections */
+
+.menu-section h2 {
+    font-size: 1.6rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Menu Items */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.menu-item .price {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.menu-item-w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    margin-bottom: 50px;
+    color: #ffffff;
+
+}
+
+.menu-item-w .price-w {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-style: italic;
+    
+}
+
+/* Descriptions */
+.description {
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.list {
+    font-weight: 500;
+}
+
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* slider de las fotos de los sides*/
+/* .slider {
+    width: 100%;
+    max-width: 100px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slider-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-images img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+.slider-images img:not(:first-child) {
+    display: none;
+} */
