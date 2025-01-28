@@ -88,6 +88,7 @@ header {
     border: 1px solid rgb(115,115,115);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 300px;
 }
 
 .days {
