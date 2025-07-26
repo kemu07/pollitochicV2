@@ -204,9 +204,9 @@ footer {
 /* ===================== */
 /* 📱 Estilos para Móviles */
 /* ===================== */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body {
-        background-size: cover; /* mejora la escala de fondo en móviles */
+        background-size: cover; 
         padding: 10px;
     }
 
@@ -273,4 +273,4 @@ footer {
     .days {
         font-size: 1rem;
     }
-}
+} */
